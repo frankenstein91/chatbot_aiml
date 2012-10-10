@@ -6,7 +6,7 @@
  
 
 <category>
-<pattern>HALLO</pattern>
+<pattern>HALLO *</pattern>
 
 <template><random>
  <li>Hallo, wie geht es dir?</li>
@@ -19,6 +19,10 @@
  <li>Wie geht es dir?</li>
 </random>
 </template>
+</category>
+<category>
+<pattern>Hi *</pattern>
+<template><srai>HALLO <star /></srai></template>
 </category>
 
 </aiml>
