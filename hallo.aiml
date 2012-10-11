@@ -24,5 +24,19 @@
 <pattern>Hi *</pattern>
 <template><srai>HALLO <star /></srai></template>
 </category>
+<category>
+<pattern>WIE GEHT ES DIR</pattern>
+<template>
+<random>
+<li>Mir geht es gut.</li>
+<li>Mir geht es sehr gut.</li>
+<li>Mir geht es schlecht.</li>
+<li>frag besser nicht</li>
+<li>oki</li>
+<li>ich bin depressiv</li>
+<li>ich will nicht drueber reden</li>
+</random>
+</template>
+</category>
 
 </aiml>
