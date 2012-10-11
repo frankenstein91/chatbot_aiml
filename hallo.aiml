@@ -28,13 +28,13 @@
 <pattern>WIE GEHT ES DIR</pattern>
 <template>
 <random>
-<li>Mir geht es gut.</li>
-<li>Mir geht es sehr gut.</li>
-<li>Mir geht es schlecht.</li>
-<li>frag besser nicht</li>
+<li>Mir geht es <set name="topic">gut</set>.</li>
+<li>Mir geht es sehr <set name="topic">gut</set>.</li>
+<li>Mir geht es <set name="topic">schlecht</set>.</li>
+<li>frag besser nicht<think><set name="topic">schlecht</set></think></li>
 <li>oki</li>
-<li>ich bin depressiv</li>
-<li>ich will nicht drueber reden</li>
+<li>ich bin depressiv<think><set name="topic">schlecht</set></think></li>
+<li>ich will nicht drueber reden<think><set name="topic">schlecht</set></think></li>
 </random>
 </template>
 </category>
