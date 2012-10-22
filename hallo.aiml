@@ -22,7 +22,13 @@
 </category>
 <category>
 <pattern>Hi *</pattern>
-<template><srai>HALLO <star /></srai></template>
+<template><srai>HALLO</srai></template>
+</category>
+<category>
+<pattern>MOIN</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
 </category>
 <category>
 <pattern>WIE GEHT ES DIR</pattern>
