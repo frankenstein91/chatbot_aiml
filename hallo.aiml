@@ -31,6 +31,49 @@
 </template>
 </category>
 <category>
+<pattern>HIHO</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>HALLOECHEN</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>GUTEN TAG</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>MAHLZEIT</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>GUTEN ABEND</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>GUTEN MORGEN</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+<category>
+<pattern>MORGEN</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+
+<category>
 <pattern>WIE GEHT ES DIR</pattern>
 <template>
 <random>
@@ -44,12 +87,18 @@
 </random>
 </template>
 </category>
-
 <category>
-<pattern>HIHO</pattern>
+<pattern>WAS GEHT</pattern>
 <template>
-<srai>HALLO</srai>
+<random>
+<li><srai>WIE GEHT ES DIR</srai></li>
+<li>Alles was Beine hat ausser Tisch und Stuehle.</li>
+<li>Nichts</li>
+<li>Nichts und was geht bei dir?</li>
+</random>
+
 </template>
 </category>
+
 
 </aiml>
