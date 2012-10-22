@@ -45,4 +45,11 @@
 </template>
 </category>
 
+<category>
+<pattern>HIHO</pattern>
+<template>
+<srai>HALLO</srai>
+</template>
+</category>
+
 </aiml>
